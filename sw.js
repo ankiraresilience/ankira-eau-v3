@@ -1,5 +1,5 @@
-/* ANKIRA EAU PWA — v3.3.0. Increment VERSION at every published update. */
-const VERSION = '3.3.0';
+/* ANKIRA EAU PWA — v3.4.0. Increment VERSION at every published update. */
+const VERSION = '3.4.0';
 const SCOPE = self.registration.scope;
 const PREFIX = 'ankira-eau-pwa:' + SCOPE + ':';
 const CACHE = PREFIX + VERSION;
