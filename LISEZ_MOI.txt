@@ -1,0 +1,17 @@
+ANKIRA EAU — PWA V3.1 (base HTML V2.3)
+=========================================
+
+NOUVEAUTÉS : étude de factures, économies et simulateurs, exemples fictifs d'échanges, demandes à un consultant ANKIRA (enregistrées localement, non transmises). Toutes les fonctionnalités V2.3 sont reprises. Cache version 3.1.0.
+
+AVANT : exporter vos données JSON depuis les paramètres de l'ancienne application. Ne jamais publier de sauvegarde personnelle dans GitHub.
+
+DÉPLOIEMENT DE TEST :
+1. Extraire le ZIP. Créer un dépôt GitHub public ankira-eau-v3 (si ce dépôt existe déjà, le réutiliser plutôt que changer son URL). Pour un nouveau dépôt, initialiser avec README pour créer main.
+2. Code > Add file > Upload files. Déposer le CONTENU de l'archive à la racine, pas le ZIP ni le dossier parent. Conserver le dossier icons et son contenu. Inclure .nojekyll (fichier vide ; si absent après extraction, afficher les fichiers cachés ou créer .nojekyll dans GitHub).
+3. Commit changes. Settings > Pages > Source: Deploy from a branch > main > /(root) > Save.
+4. Quand le déploiement est réussi, ouvrir le lien Visit site en HTTPS. Sur Android Chrome : Installer ANKIRA ou menu ⋮ > Installer l'application / Ajouter à l'écran d'accueil. Sur iPhone Safari : Partager > Sur l'écran d'accueil.
+5. Attendre l'indication Outils hors ligne prêts. Fermer et rouvrir en mode avion, tester une fiche urgence, les réserves, filtres et économies. Reconnecter puis tester cartographie et météo. Importer la sauvegarde JSON si nécessaire.
+
+MISE À JOUR : si le dépôt PWA existe, remplacer index.html et sw.js par ceux de cette archive et conserver la même URL. Mettre également les autres fichiers à jour si nécessaire. Ne pas effacer le stockage du navigateur. Utiliser Paramètres > Vérifier les mises à jour, puis Mettre à jour si proposé.
+
+LIMITES : la cartographie et la météo nécessitent Internet et dépendent de serveurs externes. Les demandes au consultant ne sont pas transmises, les alertes externes et la synchronisation ne sont pas connectées. GitHub Pages public est destiné ici à un test, pas à un service payant avec accès protégé. Le mode hors connexion dépend du cache du navigateur, qui peut être effacé ; prévoir les fiches imprimées et les exports de données.
